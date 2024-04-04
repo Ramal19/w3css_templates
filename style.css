@@ -1,0 +1,503 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(216, 213, 213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main .display{
+
+    width: 30%;
+    height: 140vh;
+    background-color: #fff;
+    box-shadow: 0px 19px 8px -19px black;
+}
+
+.img{
+    width: 100%;
+    height: 330px;
+    background-image: url("https://www.w3schools.com/w3images/avatar_hat.jpg");
+    display: flex;
+    align-items: end;
+    justify-content: left;
+}
+
+.img__text{
+
+    width: 200px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.icon1, .icon2, .icon3, .icon4{
+
+    color:  rgb(165, 161, 161);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon1{
+
+    width: 435px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 9px;
+    color: rgb(165, 161, 161);
+}
+
+.icon2{
+
+    width: 435px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 9px;
+    color: rgb(165, 161, 161);
+}
+.icon3{
+
+    width: 435px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 9px;
+    color: rgb(165, 161, 161);
+}
+.icon4{
+
+    width: 435px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 9px;
+    color: rgb(165, 161, 161);
+}
+
+hr{
+
+    width: 90%;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    color: rgb(165, 161, 161);
+}
+
+.star{
+
+    width: 435px;
+    height: 30px;
+    color: rgb(165, 161, 161);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 9px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.display__2{
+
+    width: 550px;
+    height: 300px;
+    margin: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.display__2 p{
+
+    width: 435px;
+    height: auto;
+    color: rgb(165, 161, 161);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.display__2 .div{
+
+    width: 550px;
+    height: 20px;
+    background-color: rgb(218, 211, 211);
+    gap: 12px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div__container{
+
+    width: 90%;
+    height: 20px;
+    background-color: #009688;
+    color: white;
+    gap: 12px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div__container1{
+
+    width: 80%;
+    height: 20px;
+    background-color: #009688;
+    color: white;
+    gap: 12px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div__container2{
+
+    width: 75%;
+    height: 20px;
+    background-color: #009688;
+    color: white;
+    gap: 12px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div__container3{
+
+    width: 50%;
+    height: 30px;
+    background-color: #009688;
+    color: white;
+    gap: 12px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display__3{
+
+    width: 550px;
+    height: 300px;
+    margin: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.display__3 .div2{
+
+    width: 550px;
+    height: 30px;
+    background-color: rgb(218, 211, 211);
+    gap: 12px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.earth{
+
+    width: 550px;
+    height: 30px;
+    color: rgb(165, 161, 161);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 9px;
+    margin-top: 50px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.div2__container{
+
+    width: 100%;
+    height: 30px;
+    background-color: #009688;
+    color: white;
+    gap: 12px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2__container2{
+
+    width: 50%;
+    height: 30px;
+    background-color: #009688;
+    color: white;
+    gap: 12px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2__container3{
+
+    width: 30%;
+    height: 30px;
+    background-color: #009688;
+    color: white;
+    gap: 12px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display1{
+
+    width: 57%;
+    height: 145vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+.container{
+
+    width: 100%;
+    height: 850px;
+    gap: 50px;
+    background-color: #fff;
+    box-shadow: 0px 19px 8px -19px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container1{
+
+    width: 100%;
+    height: 850px;
+    gap: 50px;
+    background-color: #fff;
+    box-shadow: 0px 19px 8px -19px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container .bag{
+
+    width: 98%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    gap: 20px;
+    color: rgb(218, 211, 211);
+    margin-top: 20px;
+}
+
+.div3{
+
+    width: 98%;
+    height: 130px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.date{
+
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 15px;
+
+}
+.p__icon{
+    color:#009688;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3 p{
+    color:#000;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3 span{
+
+    width: 80px;
+    height: 30px;
+    background-color: #009688;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+
+    width: 95%;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    color: rgb(165, 161, 161);
+}
+
+.div4{
+
+    width: 98%;
+    height: 130px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.date2{
+
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 15px;
+
+}
+.div5{
+
+    width: 98%;
+    height: 130px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.date3{
+
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 15px;
+
+}
+.div4 p{
+    color:#000;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p3__icon{
+    color:#009688;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div5 p{
+    color:#000;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.education{
+
+    width: 98%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    gap: 20px;
+    color: rgb(218, 211, 211);
+    margin-top: 20px;
+}
+.div6{
+
+    width: 98%;
+    height: 130px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div6 p{
+    color:#000;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.div7{
+
+    width: 98%;
+    height: 130px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div7 p{
+    color:#000;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.div8{
+
+    width: 98%;
+    height: 130px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div8 p{
+    color:#000;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+/* FOOTER */
+
+footer{
+
+    width: 100%;
+    height: 200px;
+    background-color: #009688;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+.link{
+
+    display: flex;
+    gap: 5px;
+}
+a{
+
+    color: white;
+}
